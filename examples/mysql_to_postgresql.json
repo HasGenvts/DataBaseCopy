@@ -1,0 +1,49 @@
+{
+    "source": {
+        "type": "mysql",
+        "host": "ecommerce-db.company.com",
+        "port": 3306,
+        "username": "shop_reader",
+        "password": "shop_pwd",
+        "database": "online_shop"
+    },
+    "target": {
+        "type": "postgresql",
+        "host": "analytics-db.company.com",
+        "port": 5432,
+        "username": "analytics_writer",
+        "password": "analytics_pwd",
+        "database": "analytics",
+        "schema": "ecommerce",
+        "sslmode": "require"
+    },
+    "tables": [
+        {
+            "source": "orders",
+            "target": "shop_orders",
+            "fields": [
+                {"source": "order_id", "target": "order_id"},
+                {"source": "customer_id", "target": "customer_id"},
+                {"source": "order_date", "target": "order_date"},
+                {"source": "total_amount", "target": "total_amount"},
+                {"source": "status", "target": "order_status"}
+            ],
+            "truncate": false,
+            "verify": true
+        },
+        {
+            "source": "customers",
+            "target": "shop_customers",
+            "fields": [
+                {"source": "customer_id", "target": "customer_id"},
+                {"source": "email", "target": "email"},
+                {"source": "first_name", "target": "first_name"},
+                {"source": "last_name", "target": "last_name"},
+                {"source": "created_at", "target": "registration_date"}
+            ],
+            "truncate": false,
+            "verify": true
+        }
+    ],
+    "batch_size": 1000
+} 

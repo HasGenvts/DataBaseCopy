@@ -1,0 +1,37 @@
+{
+    "source": {
+        "type": "string",
+        "host": "string",
+        "port": "integer",
+        "username": "string",
+        "password": "string",
+        "database": "string",
+        "driver": "string",
+        "trust_server_certificate": "boolean"
+    },
+    "target": {
+        "type": "string",
+        "host": "string",
+        "port": "integer",
+        "username": "string",
+        "password": "string",
+        "database": "string",
+        "schema": "string",
+        "ssl_mode": "string"
+    },
+    "table_mappings": {
+        "type": "array",
+        "items": {
+            "source_table": "string",
+            "target_table": "string",
+            "field_mappings": {
+                "type": "object"
+            }
+        }
+    },
+    "options": {
+        "batch_size": "integer",
+        "truncate_target": "boolean",
+        "verify_row_count": "boolean"
+    }
+} 

@@ -1,0 +1,33 @@
+{
+    "source": {
+        "type": "mysql",
+        "host": "192.168.1.17",
+        "port": 3306,
+        "username": "local",
+        "password": "LLSctT7pBY75jmSb",
+        "database": "LocalContainerManager"
+    },
+    "target": {
+        "type": "mysql",
+        "host": "192.168.1.17",
+        "port": 3306,
+        "username": "local",
+        "password": "LLSctT7pBY75jmSb",
+        "database": "LocalContainerManager"
+    },
+    "tables": [
+        {
+            "source": "cn_test",
+            "target": "cn_test2",
+            "fields": [
+                {
+                    "source": "name",
+                    "target": "name"
+                }
+            ],
+            "truncate": true,
+            "verify": true
+        }
+    ],
+    "batch_size": 5000
+} 

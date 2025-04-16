@@ -1,0 +1,53 @@
+{
+    "source": {
+        "type": "sqlserver",
+        "host": "erp-server.company.com",
+        "port": 1433,
+        "username": "erp_reader",
+        "password": "erp_pwd",
+        "database": "ERP_Production",
+        "driver": "ODBC Driver 17 for SQL Server",
+        "trust_server_certificate": true
+    },
+    "target": {
+        "type": "postgresql",
+        "host": "warehouse.company.com",
+        "port": 5432,
+        "username": "dw_writer",
+        "password": "dw_pwd",
+        "database": "data_warehouse",
+        "schema": "erp",
+        "sslmode": "verify-full"
+    },
+    "tables": [
+        {
+            "source": "Sales.Transactions",
+            "target": "sales_transactions",
+            "fields": [
+                {"source": "TransactionID", "target": "transaction_id"},
+                {"source": "TransactionDate", "target": "transaction_date"},
+                {"source": "CustomerID", "target": "customer_id"},
+                {"source": "ProductID", "target": "product_id"},
+                {"source": "Quantity", "target": "quantity"},
+                {"source": "UnitPrice", "target": "unit_price"},
+                {"source": "TotalAmount", "target": "total_amount"}
+            ],
+            "truncate": true,
+            "verify": true
+        },
+        {
+            "source": "Sales.Employees",
+            "target": "sales_employees",
+            "fields": [
+                {"source": "EmployeeID", "target": "employee_id"},
+                {"source": "FirstName", "target": "first_name"},
+                {"source": "LastName", "target": "last_name"},
+                {"source": "HireDate", "target": "hire_date"},
+                {"source": "Department", "target": "department"}
+            ],
+            "truncate": false,
+            "verify": true
+        }
+    ],
+    "batch_size": 5000
+} 

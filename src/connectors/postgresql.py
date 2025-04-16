@@ -21,8 +21,8 @@ class PostgreSQLConnector(BaseConnector):
             )
             
             # 添加schema搜索路径
-            if self.config.pg_schema:
-                connection_string += f"?options=-csearch_path%3D{self.config.pg_schema}"
+            if self.config.schema:
+                connection_string += f"?options=-csearch_path%3D{self.config.schema}"
             
             self._engine = create_engine(connection_string)
             
@@ -40,7 +40,7 @@ class PostgreSQLConnector(BaseConnector):
             logger.info("Disconnected from PostgreSQL database")
             
     async def get_table_schema(self, table_name: str) -> Dict[str, Any]:
-        schema = self.config.pg_schema or "public"
+        schema = self.config.schema or "public"
         query = """
         SELECT 
             c.column_name,
@@ -89,7 +89,7 @@ class PostgreSQLConnector(BaseConnector):
         try:
             with self._engine.connect() as conn:
                 # 获取总记录数
-                schema = self.config.pg_schema or "public"
+                schema = self.config.schema or "public"
                 count_query = f'SELECT COUNT(*) as count FROM "{schema}"."{table_name}"'
                 result = conn.execute(text(count_query))
                 total_rows = result.scalar()
@@ -122,7 +122,7 @@ class PostgreSQLConnector(BaseConnector):
         try:
             with self._engine.connect() as conn:
                 # 构建INSERT语句
-                schema = self.config.pg_schema or "public"
+                schema = self.config.schema or "public"
                 
                 # 确保数据是字典列表格式
                 processed_data = []

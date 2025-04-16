@@ -33,4 +33,8 @@ class SyncConfig:
     source: DatabaseConfig
     target: DatabaseConfig
     tables: List[TableMapping]
-    batch_size: int = 1000 
+    batch_size: int = 1000
+    max_concurrent_tasks: int = 5
+    verify_data: bool = True
+    retry_times: int = 3
+    retry_interval: int = 5 

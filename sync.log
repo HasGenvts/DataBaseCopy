@@ -1,0 +1,684 @@
+2025-04-16 20:58:34.737 | ERROR    | __main__:main:70 - Sync failed: Config file not found: 'D:\Project\github\DataBaseCopy\configM2M.json'
+2025-04-16 20:58:53.994 | ERROR    | __main__:main:70 - Sync failed: Config file not found: 'D:\\Project\\github\\DataBaseCopy\\configM2M.json'
+2025-04-16 20:59:44.647 | ERROR    | __main__:main:70 - Sync failed: Config file not found: 'D:\Project\github\DataBaseCopy\configM2M.json'
+2025-04-16 21:01:19.192 | INFO     | __main__:main:37 - Loading configuration from: D:/Project/github/DataBaseCopy/configM2M.json
+2025-04-16 21:01:19.461 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:01:19.490 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:01:19.491 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 21:01:19.491 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=True, verify=True
+2025-04-16 21:01:19.491 | INFO     | src.services.sync:truncate_table:41 - Truncating target table: cn_test2
+2025-04-16 21:01:19.505 | SUCCESS  | src.services.sync:truncate_table:43 - Successfully truncated table: cn_test2
+2025-04-16 21:01:19.517 | INFO     | src.services.sync:sync_table:95 - Synced 2 rows to cn_test2
+2025-04-16 21:01:19.518 | SUCCESS  | src.services.sync:sync_table:97 - Successfully synced 2 rows from cn_test to cn_test2
+2025-04-16 21:01:19.522 | INFO     | src.services.sync:verify_table_data:55 - Verifying data for cn_test -> cn_test2
+2025-04-16 21:01:19.522 | INFO     | src.services.sync:verify_table_data:56 - Source table count: 2
+2025-04-16 21:01:19.522 | INFO     | src.services.sync:verify_table_data:57 - Target table count: 2
+2025-04-16 21:01:19.524 | SUCCESS  | src.services.sync:verify_table_data:65 - Data verification passed for cn_test -> cn_test2
+2025-04-16 21:01:19.524 | SUCCESS  | src.services.sync:sync_all:118 - All tables synced successfully
+2025-04-16 21:01:19.525 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:01:19.526 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:01:43.548 | INFO     | __main__:main:37 - Loading configuration from: D:/Project/github/DataBaseCopy/configM2M.json
+2025-04-16 21:01:43.771 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:01:43.801 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:01:43.801 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 21:01:43.801 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=True, verify=True
+2025-04-16 21:01:43.801 | INFO     | src.services.sync:truncate_table:41 - Truncating target table: cn_test2
+2025-04-16 21:01:43.814 | SUCCESS  | src.services.sync:truncate_table:43 - Successfully truncated table: cn_test2
+2025-04-16 21:01:43.824 | INFO     | src.services.sync:sync_table:95 - Synced 2 rows to cn_test2
+2025-04-16 21:01:43.825 | SUCCESS  | src.services.sync:sync_table:97 - Successfully synced 2 rows from cn_test to cn_test2
+2025-04-16 21:01:43.831 | INFO     | src.services.sync:verify_table_data:55 - Verifying data for cn_test -> cn_test2
+2025-04-16 21:01:43.831 | INFO     | src.services.sync:verify_table_data:56 - Source table count: 2
+2025-04-16 21:01:43.831 | INFO     | src.services.sync:verify_table_data:57 - Target table count: 2
+2025-04-16 21:01:43.831 | SUCCESS  | src.services.sync:verify_table_data:65 - Data verification passed for cn_test -> cn_test2
+2025-04-16 21:01:43.831 | SUCCESS  | src.services.sync:sync_all:118 - All tables synced successfully
+2025-04-16 21:01:43.831 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:01:43.831 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:02:15.491 | INFO     | __main__:main:37 - Loading configuration from: D:/Project/github/DataBaseCopy/configM2M.json
+2025-04-16 21:02:15.730 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:02:15.746 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:02:15.746 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 21:02:15.746 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=False, verify=True
+2025-04-16 21:02:15.756 | INFO     | src.services.sync:sync_table:95 - Synced 2 rows to cn_test2
+2025-04-16 21:02:15.757 | SUCCESS  | src.services.sync:sync_table:97 - Successfully synced 2 rows from cn_test to cn_test2
+2025-04-16 21:02:15.763 | INFO     | src.services.sync:verify_table_data:55 - Verifying data for cn_test -> cn_test2
+2025-04-16 21:02:15.763 | INFO     | src.services.sync:verify_table_data:56 - Source table count: 2
+2025-04-16 21:02:15.763 | INFO     | src.services.sync:verify_table_data:57 - Target table count: 4
+2025-04-16 21:02:15.763 | ERROR    | src.services.sync:verify_table_data:60 - Row count mismatch: source=2, target=4
+2025-04-16 21:02:15.763 | ERROR    | src.services.sync:sync_table:105 - Failed to sync table cn_test to cn_test2: Data verification failed for cn_test -> cn_test2
+2025-04-16 21:02:15.764 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:02:15.764 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:02:15.764 | ERROR    | __main__:main:74 - Sync failed: Data verification failed for cn_test -> cn_test2
+2025-04-16 21:02:42.289 | INFO     | __main__:main:37 - Loading configuration from: D:/Project/github/DataBaseCopy/configM2M.json
+2025-04-16 21:02:42.535 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:02:42.565 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:02:42.565 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 21:02:42.566 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=False, verify=False
+2025-04-16 21:02:42.576 | INFO     | src.services.sync:sync_table:95 - Synced 2 rows to cn_test2
+2025-04-16 21:02:42.577 | SUCCESS  | src.services.sync:sync_table:97 - Successfully synced 2 rows from cn_test to cn_test2
+2025-04-16 21:02:42.578 | SUCCESS  | src.services.sync:sync_all:118 - All tables synced successfully
+2025-04-16 21:02:42.578 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:02:42.578 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:04:00.030 | INFO     | __main__:main:51 - Loading configuration from: D:/Project/github/DataBaseCopy/configM2M.json
+2025-04-16 21:04:00.267 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:04:00.301 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 21:04:00.301 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 21:04:00.301 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=True, verify=True
+2025-04-16 21:04:00.301 | INFO     | src.services.sync:truncate_table:41 - Truncating target table: cn_test2
+2025-04-16 21:04:00.317 | SUCCESS  | src.services.sync:truncate_table:43 - Successfully truncated table: cn_test2
+2025-04-16 21:04:00.328 | INFO     | src.services.sync:sync_table:95 - Synced 2 rows to cn_test2
+2025-04-16 21:04:00.329 | SUCCESS  | src.services.sync:sync_table:97 - Successfully synced 2 rows from cn_test to cn_test2
+2025-04-16 21:04:00.334 | INFO     | src.services.sync:verify_table_data:55 - Verifying data for cn_test -> cn_test2
+2025-04-16 21:04:00.335 | INFO     | src.services.sync:verify_table_data:56 - Source table count: 2
+2025-04-16 21:04:00.335 | INFO     | src.services.sync:verify_table_data:57 - Target table count: 2
+2025-04-16 21:04:00.335 | SUCCESS  | src.services.sync:verify_table_data:65 - Data verification passed for cn_test -> cn_test2
+2025-04-16 21:04:00.335 | SUCCESS  | src.services.sync:sync_all:118 - All tables synced successfully
+2025-04-16 21:04:00.335 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 21:04:00.335 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 22:56:09.516 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\configM2P.json
+2025-04-16 22:56:09.516 | ERROR    | __main__:main:91 - Sync failed: DatabaseConfig.__init__() got an unexpected keyword argument 'pg_schema'
+2025-04-16 22:56:28.311 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\configM2M.json
+2025-04-16 22:56:28.631 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 22:56:28.661 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 22:56:28.661 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 22:56:28.661 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=True, verify=True
+2025-04-16 22:56:28.661 | INFO     | src.services.sync:truncate_table:41 - Truncating target table: cn_test2
+2025-04-16 22:56:28.676 | SUCCESS  | src.services.sync:truncate_table:43 - Successfully truncated table: cn_test2
+2025-04-16 22:56:28.854 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:28.918 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:28.989 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.065 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.123 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.180 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.243 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.304 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.363 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.419 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.478 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.537 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.593 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.653 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.719 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.782 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.856 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.921 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:29.987 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.054 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.126 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.204 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.280 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.353 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.437 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.523 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.603 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.680 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.767 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.847 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:30.928 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.011 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.097 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.180 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.268 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.350 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.447 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.535 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.631 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.719 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.810 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.900 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:31.991 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.094 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.198 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.293 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.394 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.492 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.592 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.693 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.797 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.898 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:32.995 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.100 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.206 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.323 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.443 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.556 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.672 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.785 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:33.904 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.019 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.139 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.249 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.364 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.473 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.584 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.711 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.838 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:34.958 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:35.079 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:35.195 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:35.318 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:35.455 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:35.599 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:35.734 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:35.893 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.037 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.173 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.307 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.453 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.585 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.713 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.839 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:36.984 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:37.124 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:37.303 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:37.455 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:37.598 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:37.749 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:37.909 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:38.072 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:38.227 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:38.371 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:38.514 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:38.674 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:38.823 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:38.978 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:39.129 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:39.281 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test2
+2025-04-16 22:56:39.282 | SUCCESS  | src.services.sync:sync_table:97 - Successfully synced 500000 rows from cn_test to cn_test2
+2025-04-16 22:56:39.512 | INFO     | src.services.sync:verify_table_data:55 - Verifying data for cn_test -> cn_test2
+2025-04-16 22:56:39.512 | INFO     | src.services.sync:verify_table_data:56 - Source table count: 500000
+2025-04-16 22:56:39.512 | INFO     | src.services.sync:verify_table_data:57 - Target table count: 500000
+2025-04-16 22:56:39.512 | SUCCESS  | src.services.sync:verify_table_data:65 - Data verification passed for cn_test -> cn_test2
+2025-04-16 22:56:39.513 | SUCCESS  | src.services.sync:sync_all:118 - All tables synced successfully
+2025-04-16 22:56:39.513 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 22:56:39.513 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 22:57:07.939 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\configM2P.json
+2025-04-16 22:57:07.939 | ERROR    | __main__:main:91 - Sync failed: DatabaseConfig.__init__() got an unexpected keyword argument 'pg_schema'
+2025-04-16 22:59:21.035 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 22:59:21.250 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 22:59:21.251 | ERROR    | src.services.sync:initialize:28 - Failed to initialize database connections: 'DatabaseConfig' object has no attribute 'pg_schema'
+2025-04-16 22:59:21.251 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 22:59:21.251 | ERROR    | __main__:main:91 - Sync failed: 'DatabaseConfig' object has no attribute 'pg_schema'
+2025-04-16 23:00:18.527 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:00:18.746 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:00:18.809 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:00:18.809 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 23:00:18.810 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=True, verify=True
+2025-04-16 23:00:18.810 | INFO     | src.services.sync:truncate_table:41 - Truncating target table: cn_test2
+2025-04-16 23:00:18.813 | ERROR    | src.connectors.postgresql:execute:184 - Failed to execute SQL: TRUNCATE TABLE "public"."cn_test2", error: (psycopg2.errors.UndefinedTable) relation "public.cn_test2" does not exist
+
+[SQL: TRUNCATE TABLE "public"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:00:18.814 | ERROR    | src.services.sync:truncate_table:45 - Failed to truncate table cn_test2: (psycopg2.errors.UndefinedTable) relation "public.cn_test2" does not exist
+
+[SQL: TRUNCATE TABLE "public"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:00:18.814 | ERROR    | src.services.sync:sync_table:105 - Failed to sync table cn_test to cn_test2: (psycopg2.errors.UndefinedTable) relation "public.cn_test2" does not exist
+
+[SQL: TRUNCATE TABLE "public"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:00:18.814 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:00:18.814 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:00:18.814 | ERROR    | __main__:main:91 - Sync failed: (psycopg2.errors.UndefinedTable) relation "public.cn_test2" does not exist
+
+[SQL: TRUNCATE TABLE "public"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:00:40.840 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:00:41.057 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:00:41.110 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:00:41.110 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test2
+2025-04-16 23:00:41.110 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=True, verify=True
+2025-04-16 23:00:41.110 | INFO     | src.services.sync:truncate_table:41 - Truncating target table: cn_test2
+2025-04-16 23:00:41.114 | ERROR    | src.connectors.postgresql:execute:184 - Failed to execute SQL: TRUNCATE TABLE "postgres"."cn_test2", error: (psycopg2.errors.InvalidSchemaName) schema "postgres" does not exist
+
+[SQL: TRUNCATE TABLE "postgres"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:00:41.114 | ERROR    | src.services.sync:truncate_table:45 - Failed to truncate table cn_test2: (psycopg2.errors.InvalidSchemaName) schema "postgres" does not exist
+
+[SQL: TRUNCATE TABLE "postgres"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:00:41.114 | ERROR    | src.services.sync:sync_table:105 - Failed to sync table cn_test to cn_test2: (psycopg2.errors.InvalidSchemaName) schema "postgres" does not exist
+
+[SQL: TRUNCATE TABLE "postgres"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:00:41.114 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:00:41.114 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:00:41.114 | ERROR    | __main__:main:91 - Sync failed: (psycopg2.errors.InvalidSchemaName) schema "postgres" does not exist
+
+[SQL: TRUNCATE TABLE "postgres"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:01:12.212 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:01:12.427 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:01:12.480 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:01:12.480 | INFO     | src.services.sync:sync_all:114 - Starting sync from cn_test to cn_test
+2025-04-16 23:01:12.480 | INFO     | src.services.sync:sync_all:115 - Sync options: truncate=True, verify=True
+2025-04-16 23:01:12.480 | INFO     | src.services.sync:truncate_table:41 - Truncating target table: cn_test
+2025-04-16 23:01:12.486 | SUCCESS  | src.services.sync:truncate_table:43 - Successfully truncated table: cn_test
+2025-04-16 23:01:18.364 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:01:24.002 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:01:29.778 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:01:35.578 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:01:41.278 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:01:47.144 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:01:52.998 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:01:58.969 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:02:04.649 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:02:10.327 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:02:15.945 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:02:21.937 | INFO     | src.services.sync:sync_table:95 - Synced 5000 rows to cn_test
+2025-04-16 23:02:26.382 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:02:26.382 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:05:08.141 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:05:08.380 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:05:08.435 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:05:08.435 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:05:08.435 | ERROR    | src.services.sync:sync_all:183 - 同步失败: 'TableMapping' object is not subscriptable
+2025-04-16 23:05:08.435 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:05:08.435 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:05:37.239 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:05:37.449 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:05:37.502 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:05:37.502 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:05:37.502 | ERROR    | src.services.sync:sync_all:183 - 同步失败: 'TableMapping' object is not subscriptable
+2025-04-16 23:05:37.502 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:05:37.502 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:06:33.535 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:06:33.773 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:06:33.842 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:06:33.843 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:06:33.843 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test2
+2025-04-16 23:06:33.846 | ERROR    | src.connectors.postgresql:execute:184 - Failed to execute SQL: TRUNCATE TABLE "public"."cn_test2", error: (psycopg2.errors.UndefinedTable) relation "public.cn_test2" does not exist
+
+[SQL: TRUNCATE TABLE "public"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:06:33.846 | ERROR    | src.services.sync:truncate_table:49 - Failed to truncate table cn_test2: (psycopg2.errors.UndefinedTable) relation "public.cn_test2" does not exist
+
+[SQL: TRUNCATE TABLE "public"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:06:33.846 | ERROR    | src.services.sync:sync_table:156 - 同步表 cn_test 失败: (psycopg2.errors.UndefinedTable) relation "public.cn_test2" does not exist
+
+[SQL: TRUNCATE TABLE "public"."cn_test2"]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 23:06:33.846 | ERROR    | src.services.sync:sync_all:178 - 同步过程中出现错误，总耗时: 0.00秒
+2025-04-16 23:06:33.846 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:06:33.847 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:07:01.403 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:07:01.630 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:07:01.684 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:07:01.684 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:07:01.684 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test
+2025-04-16 23:07:01.691 | SUCCESS  | src.services.sync:truncate_table:47 - Successfully truncated table: cn_test
+2025-04-16 23:07:01.691 | INFO     | src.services.sync:sync_table:107 - 已清空目标表: cn_test
+2025-04-16 23:07:13.964 | INFO     | src.services.sync:sync_batch:85 - 批次 1 同步完成: 5000 行, 耗时: 5.88秒, 速率: 850.75 行/秒
+2025-04-16 23:07:19.824 | INFO     | src.services.sync:sync_batch:85 - 批次 2 同步完成: 5000 行, 耗时: 5.86秒, 速率: 853.31 行/秒
+2025-04-16 23:07:25.567 | INFO     | src.services.sync:sync_batch:85 - 批次 3 同步完成: 5000 行, 耗时: 5.74秒, 速率: 870.62 行/秒
+2025-04-16 23:07:29.797 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:07:29.797 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:09:16.538 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:09:16.766 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:09:16.820 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:09:16.820 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:09:16.820 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test
+2025-04-16 23:09:16.827 | SUCCESS  | src.services.sync:truncate_table:47 - Successfully truncated table: cn_test
+2025-04-16 23:09:16.827 | INFO     | src.services.sync:sync_table:107 - 已清空目标表: cn_test
+2025-04-16 23:09:23.178 | INFO     | src.services.sync:sync_table:125 - 总批次数: 100, 并发数: 5
+2025-04-16 23:09:28.911 | INFO     | src.services.sync:sync_batch:85 - 批次 1 同步完成: 5000 行, 耗时: 5.73秒, 速率: 872.05 行/秒
+2025-04-16 23:09:34.456 | INFO     | src.services.sync:sync_batch:85 - 批次 2 同步完成: 5000 行, 耗时: 5.54秒, 速率: 901.96 行/秒
+2025-04-16 23:09:40.144 | INFO     | src.services.sync:sync_batch:85 - 批次 3 同步完成: 5000 行, 耗时: 5.69秒, 速率: 879.11 行/秒
+2025-04-16 23:09:45.854 | INFO     | src.services.sync:sync_batch:85 - 批次 4 同步完成: 5000 行, 耗时: 5.71秒, 速率: 875.64 行/秒
+2025-04-16 23:09:51.620 | INFO     | src.services.sync:sync_batch:85 - 批次 5 同步完成: 5000 行, 耗时: 5.77秒, 速率: 867.09 行/秒
+2025-04-16 23:09:57.259 | INFO     | src.services.sync:sync_batch:85 - 批次 6 同步完成: 5000 行, 耗时: 5.64秒, 速率: 886.67 行/秒
+2025-04-16 23:10:00.420 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:10:00.420 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:10:59.252 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:10:59.480 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:10:59.534 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:10:59.534 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:10:59.535 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test
+2025-04-16 23:10:59.541 | SUCCESS  | src.services.sync:truncate_table:47 - Successfully truncated table: cn_test
+2025-04-16 23:10:59.541 | INFO     | src.services.sync:sync_table:107 - 已清空目标表: cn_test
+2025-04-16 23:11:05.871 | INFO     | src.services.sync:process_batch:120 - 开始处理批次 1，当前活跃任务数: 100
+2025-04-16 23:11:11.586 | INFO     | src.services.sync:sync_batch:85 - 批次 1 同步完成: 5000 行, 耗时: 5.71秒, 速率: 874.95 行/秒
+2025-04-16 23:11:11.586 | INFO     | src.services.sync:process_batch:120 - 开始处理批次 2，当前活跃任务数: 99
+2025-04-16 23:11:17.299 | INFO     | src.services.sync:sync_batch:85 - 批次 2 同步完成: 5000 行, 耗时: 5.71秒, 速率: 875.16 行/秒
+2025-04-16 23:11:17.299 | INFO     | src.services.sync:process_batch:120 - 开始处理批次 3，当前活跃任务数: 98
+2025-04-16 23:11:23.158 | INFO     | src.services.sync:sync_batch:85 - 批次 3 同步完成: 5000 行, 耗时: 5.86秒, 速率: 853.45 行/秒
+2025-04-16 23:11:23.158 | INFO     | src.services.sync:process_batch:120 - 开始处理批次 4，当前活跃任务数: 97
+2025-04-16 23:11:29.000 | INFO     | src.services.sync:sync_batch:85 - 批次 4 同步完成: 5000 行, 耗时: 5.84秒, 速率: 855.82 行/秒
+2025-04-16 23:11:29.001 | INFO     | src.services.sync:process_batch:120 - 开始处理批次 5，当前活跃任务数: 96
+2025-04-16 23:11:34.808 | INFO     | src.services.sync:sync_batch:85 - 批次 5 同步完成: 5000 行, 耗时: 5.81秒, 速率: 861.03 行/秒
+2025-04-16 23:11:34.809 | INFO     | src.services.sync:process_batch:120 - 开始处理批次 6，当前活跃任务数: 95
+2025-04-16 23:11:40.818 | INFO     | src.services.sync:sync_batch:85 - 批次 6 同步完成: 5000 行, 耗时: 6.01秒, 速率: 832.05 行/秒
+2025-04-16 23:11:40.818 | INFO     | src.services.sync:process_batch:120 - 开始处理批次 7，当前活跃任务数: 94
+2025-04-16 23:11:45.877 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:11:45.877 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:12:45.152 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:12:45.385 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:12:45.461 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:12:45.461 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:12:45.461 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test
+2025-04-16 23:12:45.468 | SUCCESS  | src.services.sync:truncate_table:47 - Successfully truncated table: cn_test
+2025-04-16 23:12:45.468 | INFO     | src.services.sync:sync_table:107 - 已清空目标表: cn_test
+2025-04-16 23:12:51.772 | INFO     | src.services.sync:sync_table:134 - 总批次数: 100, 配置的并发数: 5
+2025-04-16 23:12:51.772 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 1，当前并发数: 5
+2025-04-16 23:12:57.424 | INFO     | src.services.sync:sync_batch:85 - 批次 1 同步完成: 5000 行, 耗时: 5.65秒, 速率: 884.59 行/秒
+2025-04-16 23:12:57.424 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 2，当前并发数: 5
+2025-04-16 23:13:02.939 | INFO     | src.services.sync:sync_batch:85 - 批次 2 同步完成: 5000 行, 耗时: 5.51秒, 速率: 906.70 行/秒
+2025-04-16 23:13:02.939 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 3，当前并发数: 5
+2025-04-16 23:13:08.685 | INFO     | src.services.sync:sync_batch:85 - 批次 3 同步完成: 5000 行, 耗时: 5.75秒, 速率: 870.24 行/秒
+2025-04-16 23:13:08.685 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 4，当前并发数: 5
+2025-04-16 23:13:14.442 | INFO     | src.services.sync:sync_batch:85 - 批次 4 同步完成: 5000 行, 耗时: 5.76秒, 速率: 868.70 行/秒
+2025-04-16 23:13:14.442 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 5，当前并发数: 5
+2025-04-16 23:13:20.139 | INFO     | src.services.sync:sync_batch:85 - 批次 5 同步完成: 5000 行, 耗时: 5.70秒, 速率: 877.69 行/秒
+2025-04-16 23:13:20.140 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 6，当前并发数: 5
+2025-04-16 23:13:25.844 | INFO     | src.services.sync:sync_batch:85 - 批次 6 同步完成: 5000 行, 耗时: 5.70秒, 速率: 876.49 行/秒
+2025-04-16 23:13:25.845 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 7，当前并发数: 5
+2025-04-16 23:13:31.679 | INFO     | src.services.sync:sync_batch:85 - 批次 7 同步完成: 5000 行, 耗时: 5.83秒, 速率: 857.13 行/秒
+2025-04-16 23:13:31.679 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 8，当前并发数: 5
+2025-04-16 23:13:37.405 | INFO     | src.services.sync:sync_batch:85 - 批次 8 同步完成: 5000 行, 耗时: 5.73秒, 速率: 873.14 行/秒
+2025-04-16 23:13:37.405 | INFO     | src.services.sync:process_batch:122 - 开始处理批次 9，当前并发数: 5
+2025-04-16 23:13:42.899 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:13:42.900 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:18:26.738 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:18:26.974 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:18:27.048 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:18:27.048 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:18:27.048 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test
+2025-04-16 23:18:27.055 | SUCCESS  | src.services.sync:truncate_table:47 - Successfully truncated table: cn_test
+2025-04-16 23:18:27.055 | INFO     | src.services.sync:sync_table:107 - 已清空目标表: cn_test
+2025-04-16 23:18:33.385 | INFO     | src.services.sync:sync_table:120 - 总批次数: 100, 配置的并发数: 5
+2025-04-16 23:18:33.385 | INFO     | src.services.sync:process_batches:133 - 创建批次 1 的同步任务
+2025-04-16 23:18:33.385 | INFO     | src.services.sync:process_batches:133 - 创建批次 2 的同步任务
+2025-04-16 23:18:33.385 | INFO     | src.services.sync:process_batches:133 - 创建批次 3 的同步任务
+2025-04-16 23:18:33.385 | INFO     | src.services.sync:process_batches:133 - 创建批次 4 的同步任务
+2025-04-16 23:18:33.385 | INFO     | src.services.sync:process_batches:133 - 创建批次 5 的同步任务
+2025-04-16 23:18:39.048 | INFO     | src.services.sync:sync_batch:85 - 批次 1 同步完成: 5000 行, 耗时: 5.66秒, 速率: 883.14 行/秒
+2025-04-16 23:18:44.716 | INFO     | src.services.sync:sync_batch:85 - 批次 2 同步完成: 5000 行, 耗时: 5.67秒, 速率: 882.28 行/秒
+2025-04-16 23:18:50.439 | INFO     | src.services.sync:sync_batch:85 - 批次 3 同步完成: 5000 行, 耗时: 5.72秒, 速率: 873.62 行/秒
+2025-04-16 23:18:56.098 | INFO     | src.services.sync:sync_batch:85 - 批次 4 同步完成: 5000 行, 耗时: 5.66秒, 速率: 883.61 行/秒
+2025-04-16 23:19:01.675 | INFO     | src.services.sync:sync_batch:85 - 批次 5 同步完成: 5000 行, 耗时: 5.58秒, 速率: 896.47 行/秒
+2025-04-16 23:19:01.675 | INFO     | src.services.sync:process_batches:133 - 创建批次 6 的同步任务
+2025-04-16 23:19:01.675 | INFO     | src.services.sync:process_batches:133 - 创建批次 7 的同步任务
+2025-04-16 23:19:01.675 | INFO     | src.services.sync:process_batches:133 - 创建批次 8 的同步任务
+2025-04-16 23:19:01.675 | INFO     | src.services.sync:process_batches:133 - 创建批次 9 的同步任务
+2025-04-16 23:19:01.675 | INFO     | src.services.sync:process_batches:133 - 创建批次 10 的同步任务
+2025-04-16 23:19:07.420 | INFO     | src.services.sync:sync_batch:85 - 批次 6 同步完成: 5000 行, 耗时: 5.74秒, 速率: 870.52 行/秒
+2025-04-16 23:19:13.226 | INFO     | src.services.sync:sync_batch:85 - 批次 7 同步完成: 5000 行, 耗时: 5.81秒, 速率: 861.11 行/秒
+2025-04-16 23:19:18.955 | INFO     | src.services.sync:sync_batch:85 - 批次 8 同步完成: 5000 行, 耗时: 5.73秒, 速率: 872.83 行/秒
+2025-04-16 23:19:24.657 | INFO     | src.services.sync:sync_batch:85 - 批次 9 同步完成: 5000 行, 耗时: 5.69秒, 速率: 877.96 行/秒
+2025-04-16 23:19:30.408 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:19:30.408 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:21:57.701 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:21:57.913 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:21:57.965 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:21:57.965 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:21:57.965 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test
+2025-04-16 23:21:57.972 | SUCCESS  | src.services.sync:truncate_table:47 - Successfully truncated table: cn_test
+2025-04-16 23:21:57.972 | INFO     | src.services.sync:sync_table:107 - 已清空目标表: cn_test
+2025-04-16 23:22:04.202 | INFO     | src.services.sync:sync_table:120 - 总批次数: 100, 配置的并发数: 5
+2025-04-16 23:22:09.722 | INFO     | src.services.sync:sync_batch:85 - 批次 1 同步完成: 5000 行, 耗时: 5.52秒, 速率: 905.78 行/秒
+2025-04-16 23:22:15.231 | INFO     | src.services.sync:sync_batch:85 - 批次 2 同步完成: 5000 行, 耗时: 5.51秒, 速率: 907.60 行/秒
+2025-04-16 23:22:20.700 | INFO     | src.services.sync:sync_batch:85 - 批次 3 同步完成: 5000 行, 耗时: 5.47秒, 速率: 914.51 行/秒
+2025-04-16 23:22:26.332 | INFO     | src.services.sync:sync_batch:85 - 批次 4 同步完成: 5000 行, 耗时: 5.63秒, 速率: 887.71 行/秒
+2025-04-16 23:22:31.895 | INFO     | src.services.sync:sync_batch:85 - 批次 5 同步完成: 5000 行, 耗时: 5.56秒, 速率: 898.91 行/秒
+2025-04-16 23:22:35.327 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:22:35.327 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:22:38.530 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2M.json
+2025-04-16 23:22:38.735 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:22:38.751 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:22:38.751 | INFO     | src.services.sync:initialize:30 - 初始化完成，并发任务数: 5
+2025-04-16 23:22:38.751 | INFO     | src.services.sync:truncate_table:45 - Truncating target table: cn_test2
+2025-04-16 23:22:38.764 | SUCCESS  | src.services.sync:truncate_table:47 - Successfully truncated table: cn_test2
+2025-04-16 23:22:38.766 | INFO     | src.services.sync:sync_table:107 - 已清空目标表: cn_test2
+2025-04-16 23:22:45.042 | INFO     | src.services.sync:sync_table:120 - 总批次数: 100, 配置的并发数: 5
+2025-04-16 23:22:45.088 | INFO     | src.services.sync:sync_batch:85 - 批次 1 同步完成: 5000 行, 耗时: 0.05秒, 速率: 108678.74 行/秒
+2025-04-16 23:22:45.128 | INFO     | src.services.sync:sync_batch:85 - 批次 2 同步完成: 5000 行, 耗时: 0.04秒, 速率: 126070.17 行/秒
+2025-04-16 23:22:45.175 | INFO     | src.services.sync:sync_batch:85 - 批次 3 同步完成: 5000 行, 耗时: 0.05秒, 速率: 107616.90 行/秒
+2025-04-16 23:22:45.223 | INFO     | src.services.sync:sync_batch:85 - 批次 4 同步完成: 5000 行, 耗时: 0.05秒, 速率: 105145.17 行/秒
+2025-04-16 23:22:45.250 | INFO     | src.services.sync:sync_batch:85 - 批次 5 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184966.66 行/秒
+2025-04-16 23:22:45.282 | INFO     | src.services.sync:sync_batch:85 - 批次 6 同步完成: 5000 行, 耗时: 0.03秒, 速率: 158293.54 行/秒
+2025-04-16 23:22:45.316 | INFO     | src.services.sync:sync_batch:85 - 批次 7 同步完成: 5000 行, 耗时: 0.03秒, 速率: 144820.94 行/秒
+2025-04-16 23:22:45.350 | INFO     | src.services.sync:sync_batch:85 - 批次 8 同步完成: 5000 行, 耗时: 0.03秒, 速率: 148634.04 行/秒
+2025-04-16 23:22:45.382 | INFO     | src.services.sync:sync_batch:85 - 批次 9 同步完成: 5000 行, 耗时: 0.03秒, 速率: 157443.84 行/秒
+2025-04-16 23:22:45.408 | INFO     | src.services.sync:sync_batch:85 - 批次 10 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190496.05 行/秒
+2025-04-16 23:22:45.441 | INFO     | src.services.sync:sync_batch:85 - 批次 11 同步完成: 5000 行, 耗时: 0.03秒, 速率: 156791.72 行/秒
+2025-04-16 23:22:45.474 | INFO     | src.services.sync:sync_batch:85 - 批次 12 同步完成: 5000 行, 耗时: 0.03秒, 速率: 150316.24 行/秒
+2025-04-16 23:22:45.503 | INFO     | src.services.sync:sync_batch:85 - 批次 13 同步完成: 5000 行, 耗时: 0.03秒, 速率: 173547.83 行/秒
+2025-04-16 23:22:45.530 | INFO     | src.services.sync:sync_batch:85 - 批次 14 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185218.24 行/秒
+2025-04-16 23:22:45.560 | INFO     | src.services.sync:sync_batch:85 - 批次 15 同步完成: 5000 行, 耗时: 0.03秒, 速率: 170473.83 行/秒
+2025-04-16 23:22:45.586 | INFO     | src.services.sync:sync_batch:85 - 批次 16 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192958.67 行/秒
+2025-04-16 23:22:45.613 | INFO     | src.services.sync:sync_batch:85 - 批次 17 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184935.67 行/秒
+2025-04-16 23:22:45.639 | INFO     | src.services.sync:sync_batch:85 - 批次 18 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190169.57 行/秒
+2025-04-16 23:22:45.666 | INFO     | src.services.sync:sync_batch:85 - 批次 19 同步完成: 5000 行, 耗时: 0.03秒, 速率: 187152.14 行/秒
+2025-04-16 23:22:45.692 | INFO     | src.services.sync:sync_batch:85 - 批次 20 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192788.38 行/秒
+2025-04-16 23:22:45.722 | INFO     | src.services.sync:sync_batch:85 - 批次 21 同步完成: 5000 行, 耗时: 0.03秒, 速率: 165906.05 行/秒
+2025-04-16 23:22:45.747 | INFO     | src.services.sync:sync_batch:85 - 批次 22 同步完成: 5000 行, 耗时: 0.03秒, 速率: 196360.71 行/秒
+2025-04-16 23:22:45.773 | INFO     | src.services.sync:sync_batch:85 - 批次 23 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190140.26 行/秒
+2025-04-16 23:22:45.802 | INFO     | src.services.sync:sync_batch:85 - 批次 24 同步完成: 5000 行, 耗时: 0.03秒, 速率: 179894.15 行/秒
+2025-04-16 23:22:45.828 | INFO     | src.services.sync:sync_batch:85 - 批次 25 同步完成: 5000 行, 耗时: 0.03秒, 速率: 194349.90 行/秒
+2025-04-16 23:22:45.854 | INFO     | src.services.sync:sync_batch:85 - 批次 26 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186584.34 行/秒
+2025-04-16 23:22:45.885 | INFO     | src.services.sync:sync_batch:85 - 批次 27 同步完成: 5000 行, 耗时: 0.03秒, 速率: 162396.20 行/秒
+2025-04-16 23:22:45.912 | INFO     | src.services.sync:sync_batch:85 - 批次 28 同步完成: 5000 行, 耗时: 0.03秒, 速率: 182791.80 行/秒
+2025-04-16 23:22:45.940 | INFO     | src.services.sync:sync_batch:85 - 批次 29 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184810.18 行/秒
+2025-04-16 23:22:45.965 | INFO     | src.services.sync:sync_batch:85 - 批次 30 同步完成: 5000 行, 耗时: 0.03秒, 速率: 199770.62 行/秒
+2025-04-16 23:22:45.990 | INFO     | src.services.sync:sync_batch:85 - 批次 31 同步完成: 5000 行, 耗时: 0.03秒, 速率: 195931.42 行/秒
+2025-04-16 23:22:46.020 | INFO     | src.services.sync:sync_batch:85 - 批次 32 同步完成: 5000 行, 耗时: 0.03秒, 速率: 165967.76 行/秒
+2025-04-16 23:22:46.052 | INFO     | src.services.sync:sync_batch:85 - 批次 33 同步完成: 5000 行, 耗时: 0.03秒, 速率: 164695.65 行/秒
+2025-04-16 23:22:46.083 | INFO     | src.services.sync:sync_batch:85 - 批次 34 同步完成: 5000 行, 耗时: 0.03秒, 速率: 161577.91 行/秒
+2025-04-16 23:22:46.112 | INFO     | src.services.sync:sync_batch:85 - 批次 35 同步完成: 5000 行, 耗时: 0.03秒, 速率: 167453.33 行/秒
+2025-04-16 23:22:46.140 | INFO     | src.services.sync:sync_batch:85 - 批次 36 同步完成: 5000 行, 耗时: 0.03秒, 速率: 182912.96 行/秒
+2025-04-16 23:22:46.167 | INFO     | src.services.sync:sync_batch:85 - 批次 37 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188127.56 行/秒
+2025-04-16 23:22:46.193 | INFO     | src.services.sync:sync_batch:85 - 批次 38 同步完成: 5000 行, 耗时: 0.03秒, 速率: 193458.85 行/秒
+2025-04-16 23:22:46.228 | INFO     | src.services.sync:sync_batch:85 - 批次 39 同步完成: 5000 行, 耗时: 0.04秒, 速率: 142242.48 行/秒
+2025-04-16 23:22:46.255 | INFO     | src.services.sync:sync_batch:85 - 批次 40 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186299.25 行/秒
+2025-04-16 23:22:46.281 | INFO     | src.services.sync:sync_batch:85 - 批次 41 同步完成: 5000 行, 耗时: 0.03秒, 速率: 194627.66 行/秒
+2025-04-16 23:22:46.313 | INFO     | src.services.sync:sync_batch:85 - 批次 42 同步完成: 5000 行, 耗时: 0.03秒, 速率: 153176.30 行/秒
+2025-04-16 23:22:46.341 | INFO     | src.services.sync:sync_batch:85 - 批次 43 同步完成: 5000 行, 耗时: 0.03秒, 速率: 182182.03 行/秒
+2025-04-16 23:22:46.374 | INFO     | src.services.sync:sync_batch:85 - 批次 44 同步完成: 5000 行, 耗时: 0.03秒, 速率: 149101.12 行/秒
+2025-04-16 23:22:46.403 | INFO     | src.services.sync:sync_batch:85 - 批次 45 同步完成: 5000 行, 耗时: 0.03秒, 速率: 172288.89 行/秒
+2025-04-16 23:22:46.430 | INFO     | src.services.sync:sync_batch:85 - 批次 46 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191345.99 行/秒
+2025-04-16 23:22:46.457 | INFO     | src.services.sync:sync_batch:85 - 批次 47 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192011.72 行/秒
+2025-04-16 23:22:46.482 | INFO     | src.services.sync:sync_batch:85 - 批次 48 同步完成: 5000 行, 耗时: 0.03秒, 速率: 195298.28 行/秒
+2025-04-16 23:22:46.510 | INFO     | src.services.sync:sync_batch:85 - 批次 49 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185434.42 行/秒
+2025-04-16 23:22:46.538 | INFO     | src.services.sync:sync_batch:85 - 批次 50 同步完成: 5000 行, 耗时: 0.03秒, 速率: 180139.84 行/秒
+2025-04-16 23:22:46.568 | INFO     | src.services.sync:sync_batch:85 - 批次 51 同步完成: 5000 行, 耗时: 0.03秒, 速率: 166615.18 行/秒
+2025-04-16 23:22:46.599 | INFO     | src.services.sync:sync_batch:85 - 批次 52 同步完成: 5000 行, 耗时: 0.03秒, 速率: 161633.95 行/秒
+2025-04-16 23:22:46.633 | INFO     | src.services.sync:sync_batch:85 - 批次 53 同步完成: 5000 行, 耗时: 0.03秒, 速率: 146695.02 行/秒
+2025-04-16 23:22:46.660 | INFO     | src.services.sync:sync_batch:85 - 批次 54 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185965.54 行/秒
+2025-04-16 23:22:46.686 | INFO     | src.services.sync:sync_batch:85 - 批次 55 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192277.55 行/秒
+2025-04-16 23:22:46.712 | INFO     | src.services.sync:sync_batch:85 - 批次 56 同步完成: 5000 行, 耗时: 0.03秒, 速率: 196821.43 行/秒
+2025-04-16 23:22:46.742 | INFO     | src.services.sync:sync_batch:85 - 批次 57 同步完成: 5000 行, 耗时: 0.03秒, 速率: 169301.29 行/秒
+2025-04-16 23:22:46.767 | INFO     | src.services.sync:sync_batch:85 - 批次 58 同步完成: 5000 行, 耗时: 0.02秒, 速率: 200178.69 行/秒
+2025-04-16 23:22:46.795 | INFO     | src.services.sync:sync_batch:85 - 批次 59 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184951.98 行/秒
+2025-04-16 23:22:46.822 | INFO     | src.services.sync:sync_batch:85 - 批次 60 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184321.26 行/秒
+2025-04-16 23:22:46.849 | INFO     | src.services.sync:sync_batch:85 - 批次 61 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186086.00 行/秒
+2025-04-16 23:22:46.877 | INFO     | src.services.sync:sync_batch:85 - 批次 62 同步完成: 5000 行, 耗时: 0.03秒, 速率: 177068.99 行/秒
+2025-04-16 23:22:46.906 | INFO     | src.services.sync:sync_batch:85 - 批次 63 同步完成: 5000 行, 耗时: 0.03秒, 速率: 170002.59 行/秒
+2025-04-16 23:22:46.934 | INFO     | src.services.sync:sync_batch:85 - 批次 64 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186998.61 行/秒
+2025-04-16 23:22:46.962 | INFO     | src.services.sync:sync_batch:85 - 批次 65 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186261.19 行/秒
+2025-04-16 23:22:46.987 | INFO     | src.services.sync:sync_batch:85 - 批次 66 同步完成: 5000 行, 耗时: 0.03秒, 速率: 196419.56 行/秒
+2025-04-16 23:22:47.014 | INFO     | src.services.sync:sync_batch:85 - 批次 67 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188293.09 行/秒
+2025-04-16 23:22:47.042 | INFO     | src.services.sync:sync_batch:85 - 批次 68 同步完成: 5000 行, 耗时: 0.03秒, 速率: 180251.32 行/秒
+2025-04-16 23:22:47.071 | INFO     | src.services.sync:sync_batch:85 - 批次 69 同步完成: 5000 行, 耗时: 0.03秒, 速率: 170577.82 行/秒
+2025-04-16 23:22:47.098 | INFO     | src.services.sync:sync_batch:85 - 批次 70 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188382.74 行/秒
+2025-04-16 23:22:47.126 | INFO     | src.services.sync:sync_batch:85 - 批次 71 同步完成: 5000 行, 耗时: 0.03秒, 速率: 178244.37 行/秒
+2025-04-16 23:22:47.153 | INFO     | src.services.sync:sync_batch:85 - 批次 72 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184081.81 行/秒
+2025-04-16 23:22:47.179 | INFO     | src.services.sync:sync_batch:85 - 批次 73 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192514.07 行/秒
+2025-04-16 23:22:47.206 | INFO     | src.services.sync:sync_batch:85 - 批次 74 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185082.56 行/秒
+2025-04-16 23:22:47.239 | INFO     | src.services.sync:sync_batch:85 - 批次 75 同步完成: 5000 行, 耗时: 0.03秒, 速率: 148734.18 行/秒
+2025-04-16 23:22:47.274 | INFO     | src.services.sync:sync_batch:85 - 批次 76 同步完成: 5000 行, 耗时: 0.03秒, 速率: 142947.35 行/秒
+2025-04-16 23:22:47.303 | INFO     | src.services.sync:sync_batch:85 - 批次 77 同步完成: 5000 行, 耗时: 0.03秒, 速率: 178361.10 行/秒
+2025-04-16 23:22:47.333 | INFO     | src.services.sync:sync_batch:85 - 批次 78 同步完成: 5000 行, 耗时: 0.03秒, 速率: 176315.71 行/秒
+2025-04-16 23:22:47.364 | INFO     | src.services.sync:sync_batch:85 - 批次 79 同步完成: 5000 行, 耗时: 0.03秒, 速率: 166538.44 行/秒
+2025-04-16 23:22:47.392 | INFO     | src.services.sync:sync_batch:85 - 批次 80 同步完成: 5000 行, 耗时: 0.03秒, 速率: 174444.31 行/秒
+2025-04-16 23:22:47.426 | INFO     | src.services.sync:sync_batch:85 - 批次 81 同步完成: 5000 行, 耗时: 0.03秒, 速率: 150502.86 行/秒
+2025-04-16 23:22:47.454 | INFO     | src.services.sync:sync_batch:85 - 批次 82 同步完成: 5000 行, 耗时: 0.03秒, 速率: 181549.60 行/秒
+2025-04-16 23:22:47.483 | INFO     | src.services.sync:sync_batch:85 - 批次 83 同步完成: 5000 行, 耗时: 0.03秒, 速率: 182465.76 行/秒
+2025-04-16 23:22:47.510 | INFO     | src.services.sync:sync_batch:85 - 批次 84 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184938.93 行/秒
+2025-04-16 23:22:47.538 | INFO     | src.services.sync:sync_batch:85 - 批次 85 同步完成: 5000 行, 耗时: 0.03秒, 速率: 174092.41 行/秒
+2025-04-16 23:22:47.568 | INFO     | src.services.sync:sync_batch:85 - 批次 86 同步完成: 5000 行, 耗时: 0.03秒, 速率: 171720.35 行/秒
+2025-04-16 23:22:47.599 | INFO     | src.services.sync:sync_batch:85 - 批次 87 同步完成: 5000 行, 耗时: 0.03秒, 速率: 166615.18 行/秒
+2025-04-16 23:22:47.625 | INFO     | src.services.sync:sync_batch:85 - 批次 88 同步完成: 5000 行, 耗时: 0.03秒, 速率: 187969.06 行/秒
+2025-04-16 23:22:47.653 | INFO     | src.services.sync:sync_batch:85 - 批次 89 同步完成: 5000 行, 耗时: 0.03秒, 速率: 179610.66 行/秒
+2025-04-16 23:22:47.680 | INFO     | src.services.sync:sync_batch:85 - 批次 90 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188342.13 行/秒
+2025-04-16 23:22:47.706 | INFO     | src.services.sync:sync_batch:85 - 批次 91 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188406.43 行/秒
+2025-04-16 23:22:47.733 | INFO     | src.services.sync:sync_batch:85 - 批次 92 同步完成: 5000 行, 耗时: 0.03秒, 速率: 195839.94 行/秒
+2025-04-16 23:22:47.766 | INFO     | src.services.sync:sync_batch:85 - 批次 93 同步完成: 5000 行, 耗时: 0.03秒, 速率: 149315.56 行/秒
+2025-04-16 23:22:47.798 | INFO     | src.services.sync:sync_batch:85 - 批次 94 同步完成: 5000 行, 耗时: 0.03秒, 速率: 155017.33 行/秒
+2025-04-16 23:22:47.833 | INFO     | src.services.sync:sync_batch:85 - 批次 95 同步完成: 5000 行, 耗时: 0.03秒, 速率: 145693.23 行/秒
+2025-04-16 23:22:47.866 | INFO     | src.services.sync:sync_batch:85 - 批次 96 同步完成: 5000 行, 耗时: 0.03秒, 速率: 149619.17 行/秒
+2025-04-16 23:22:47.892 | INFO     | src.services.sync:sync_batch:85 - 批次 97 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191468.27 行/秒
+2025-04-16 23:22:47.920 | INFO     | src.services.sync:sync_batch:85 - 批次 98 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185359.02 行/秒
+2025-04-16 23:22:47.951 | INFO     | src.services.sync:sync_batch:85 - 批次 99 同步完成: 5000 行, 耗时: 0.03秒, 速率: 161213.98 行/秒
+2025-04-16 23:22:47.978 | INFO     | src.services.sync:sync_batch:85 - 批次 100 同步完成: 5000 行, 耗时: 0.03秒, 速率: 187155.48 行/秒
+2025-04-16 23:22:47.978 | SUCCESS  | src.services.sync:sync_table:191 - 表 cn_test -> cn_test2 同步完成
+2025-04-16 23:22:47.978 | INFO     | src.services.sync:sync_table:192 - 总记录数: 500000, 总耗时: 9.21秒, 平均速率: 54276.19 行/秒, 完成批次数: 100/100
+2025-04-16 23:22:48.157 | SUCCESS  | src.services.sync:sync_table:206 - 数据验证成功: 500000 行
+2025-04-16 23:22:48.168 | SUCCESS  | src.services.sync:sync_all:231 - 所有表同步完成，总耗时: 9.42秒
+2025-04-16 23:22:48.169 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:22:48.169 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:24:29.084 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2M.json
+2025-04-16 23:24:29.310 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:24:29.343 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:24:29.343 | INFO     | src.services.sync:initialize:38 - 初始化完成，并发任务数: 5
+2025-04-16 23:24:29.343 | INFO     | src.services.sync:truncate_table:53 - Truncating target table: cn_test2
+2025-04-16 23:24:29.356 | SUCCESS  | src.services.sync:truncate_table:55 - Successfully truncated table: cn_test2
+2025-04-16 23:24:29.356 | INFO     | src.services.sync:sync_table:115 - 已清空目标表: cn_test2
+2025-04-16 23:24:35.680 | INFO     | src.services.sync:sync_table:128 - 总批次数: 100, 配置的并发数: 5
+2025-04-16 23:24:35.729 | INFO     | src.services.sync:sync_batch:93 - 批次 1 同步完成: 5000 行, 耗时: 0.05秒, 速率: 102947.41 行/秒
+2025-04-16 23:24:35.769 | INFO     | src.services.sync:sync_batch:93 - 批次 2 同步完成: 5000 行, 耗时: 0.04秒, 速率: 124328.72 行/秒
+2025-04-16 23:24:35.818 | INFO     | src.services.sync:sync_batch:93 - 批次 3 同步完成: 5000 行, 耗时: 0.05秒, 速率: 104059.98 行/秒
+2025-04-16 23:24:35.867 | INFO     | src.services.sync:sync_batch:93 - 批次 4 同步完成: 5000 行, 耗时: 0.05秒, 速率: 103924.87 行/秒
+2025-04-16 23:24:35.901 | INFO     | src.services.sync:sync_batch:93 - 批次 5 同步完成: 5000 行, 耗时: 0.03秒, 速率: 147335.02 行/秒
+2025-04-16 23:24:35.927 | INFO     | src.services.sync:sync_batch:93 - 批次 6 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188078.63 行/秒
+2025-04-16 23:24:35.952 | INFO     | src.services.sync:sync_batch:93 - 批次 7 同步完成: 5000 行, 耗时: 0.03秒, 速率: 198946.24 行/秒
+2025-04-16 23:24:35.983 | INFO     | src.services.sync:sync_batch:93 - 批次 8 同步完成: 5000 行, 耗时: 0.03秒, 速率: 161738.66 行/秒
+2025-04-16 23:24:36.017 | INFO     | src.services.sync:sync_batch:93 - 批次 9 同步完成: 5000 行, 耗时: 0.03秒, 速率: 146360.24 行/秒
+2025-04-16 23:24:36.042 | INFO     | src.services.sync:sync_batch:93 - 批次 10 同步完成: 5000 行, 耗时: 0.02秒, 速率: 203848.44 行/秒
+2025-04-16 23:24:36.070 | INFO     | src.services.sync:sync_batch:93 - 批次 11 同步完成: 5000 行, 耗时: 0.03秒, 速率: 183723.79 行/秒
+2025-04-16 23:24:36.096 | INFO     | src.services.sync:sync_batch:93 - 批次 12 同步完成: 5000 行, 耗时: 0.03秒, 速率: 193017.28 行/秒
+2025-04-16 23:24:36.122 | INFO     | src.services.sync:sync_batch:93 - 批次 13 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192666.17 行/秒
+2025-04-16 23:24:36.148 | INFO     | src.services.sync:sync_batch:93 - 批次 14 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191664.26 行/秒
+2025-04-16 23:24:36.180 | INFO     | src.services.sync:sync_batch:93 - 批次 15 同步完成: 5000 行, 耗时: 0.03秒, 速率: 156599.71 行/秒
+2025-04-16 23:24:36.206 | INFO     | src.services.sync:sync_batch:93 - 批次 16 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191899.27 行/秒
+2025-04-16 23:24:36.238 | INFO     | src.services.sync:sync_batch:93 - 批次 17 同步完成: 5000 行, 耗时: 0.03秒, 速率: 158708.03 行/秒
+2025-04-16 23:24:36.270 | INFO     | src.services.sync:sync_batch:93 - 批次 18 同步完成: 5000 行, 耗时: 0.03秒, 速率: 152414.84 行/秒
+2025-04-16 23:24:36.299 | INFO     | src.services.sync:sync_batch:93 - 批次 19 同步完成: 5000 行, 耗时: 0.03秒, 速率: 176514.57 行/秒
+2025-04-16 23:24:36.328 | INFO     | src.services.sync:sync_batch:93 - 批次 20 同步完成: 5000 行, 耗时: 0.03秒, 速率: 173251.05 行/秒
+2025-04-16 23:24:36.367 | INFO     | src.services.sync:sync_batch:93 - 批次 21 同步完成: 5000 行, 耗时: 0.04秒, 速率: 125514.08 行/秒
+2025-04-16 23:24:36.397 | INFO     | src.services.sync:sync_batch:93 - 批次 22 同步完成: 5000 行, 耗时: 0.03秒, 速率: 173943.68 行/秒
+2025-04-16 23:24:36.427 | INFO     | src.services.sync:sync_batch:93 - 批次 23 同步完成: 5000 行, 耗时: 0.03秒, 速率: 165878.49 行/秒
+2025-04-16 23:24:36.461 | INFO     | src.services.sync:sync_batch:93 - 批次 24 同步完成: 5000 行, 耗时: 0.03秒, 速率: 148700.44 行/秒
+2025-04-16 23:24:36.489 | INFO     | src.services.sync:sync_batch:93 - 批次 25 同步完成: 5000 行, 耗时: 0.03秒, 速率: 180625.47 行/秒
+2025-04-16 23:24:36.514 | INFO     | src.services.sync:sync_batch:93 - 批次 26 同步完成: 5000 行, 耗时: 0.03秒, 速率: 199683.12 行/秒
+2025-04-16 23:24:36.547 | INFO     | src.services.sync:sync_batch:93 - 批次 27 同步完成: 5000 行, 耗时: 0.03秒, 速率: 153092.43 行/秒
+2025-04-16 23:24:36.578 | INFO     | src.services.sync:sync_batch:93 - 批次 28 同步完成: 5000 行, 耗时: 0.03秒, 速率: 162990.67 行/秒
+2025-04-16 23:24:36.610 | INFO     | src.services.sync:sync_batch:93 - 批次 29 同步完成: 5000 行, 耗时: 0.03秒, 速率: 157781.44 行/秒
+2025-04-16 23:24:36.637 | INFO     | src.services.sync:sync_batch:93 - 批次 30 同步完成: 5000 行, 耗时: 0.03秒, 速率: 182416.56 行/秒
+2025-04-16 23:24:36.663 | INFO     | src.services.sync:sync_batch:93 - 批次 31 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192291.65 行/秒
+2025-04-16 23:24:36.690 | INFO     | src.services.sync:sync_batch:93 - 批次 32 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186775.44 行/秒
+2025-04-16 23:24:36.720 | INFO     | src.services.sync:sync_batch:93 - 批次 33 同步完成: 5000 行, 耗时: 0.03秒, 速率: 170924.00 行/秒
+2025-04-16 23:24:36.748 | INFO     | src.services.sync:sync_batch:93 - 批次 34 同步完成: 5000 行, 耗时: 0.03秒, 速率: 180793.64 行/秒
+2025-04-16 23:24:36.775 | INFO     | src.services.sync:sync_batch:93 - 批次 35 同步完成: 5000 行, 耗时: 0.03秒, 速率: 189543.93 行/秒
+2025-04-16 23:24:36.800 | INFO     | src.services.sync:sync_batch:93 - 批次 36 同步完成: 5000 行, 耗时: 0.03秒, 速率: 196703.28 行/秒
+2025-04-16 23:24:36.826 | INFO     | src.services.sync:sync_batch:93 - 批次 37 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190176.47 行/秒
+2025-04-16 23:24:36.852 | INFO     | src.services.sync:sync_batch:93 - 批次 38 同步完成: 5000 行, 耗时: 0.03秒, 速率: 195418.39 行/秒
+2025-04-16 23:24:36.882 | INFO     | src.services.sync:sync_batch:93 - 批次 39 同步完成: 5000 行, 耗时: 0.03秒, 速率: 171810.39 行/秒
+2025-04-16 23:24:36.909 | INFO     | src.services.sync:sync_batch:93 - 批次 40 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186292.63 行/秒
+2025-04-16 23:24:36.935 | INFO     | src.services.sync:sync_batch:93 - 批次 41 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192045.13 行/秒
+2025-04-16 23:24:36.961 | INFO     | src.services.sync:sync_batch:93 - 批次 42 同步完成: 5000 行, 耗时: 0.03秒, 速率: 198158.59 行/秒
+2025-04-16 23:24:36.996 | INFO     | src.services.sync:sync_batch:93 - 批次 43 同步完成: 5000 行, 耗时: 0.04秒, 速率: 141798.14 行/秒
+2025-04-16 23:24:37.023 | INFO     | src.services.sync:sync_batch:93 - 批次 44 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188822.04 行/秒
+2025-04-16 23:24:37.060 | INFO     | src.services.sync:sync_batch:93 - 批次 45 同步完成: 5000 行, 耗时: 0.04秒, 速率: 135657.21 行/秒
+2025-04-16 23:24:37.086 | INFO     | src.services.sync:sync_batch:93 - 批次 46 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191978.32 行/秒
+2025-04-16 23:24:37.111 | INFO     | src.services.sync:sync_batch:93 - 批次 47 同步完成: 5000 行, 耗时: 0.02秒, 速率: 200155.76 行/秒
+2025-04-16 23:24:37.138 | INFO     | src.services.sync:sync_batch:93 - 批次 48 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191811.51 行/秒
+2025-04-16 23:24:37.165 | INFO     | src.services.sync:sync_batch:93 - 批次 49 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185162.63 行/秒
+2025-04-16 23:24:37.191 | INFO     | src.services.sync:sync_batch:93 - 批次 50 同步完成: 5000 行, 耗时: 0.03秒, 速率: 199375.58 行/秒
+2025-04-16 23:24:37.220 | INFO     | src.services.sync:sync_batch:93 - 批次 51 同步完成: 5000 行, 耗时: 0.03秒, 速率: 172798.52 行/秒
+2025-04-16 23:24:37.248 | INFO     | src.services.sync:sync_batch:93 - 批次 52 同步完成: 5000 行, 耗时: 0.03秒, 速率: 187001.94 行/秒
+2025-04-16 23:24:37.275 | INFO     | src.services.sync:sync_batch:93 - 批次 53 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185080.93 行/秒
+2025-04-16 23:24:37.301 | INFO     | src.services.sync:sync_batch:93 - 批次 54 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190750.76 行/秒
+2025-04-16 23:24:37.327 | INFO     | src.services.sync:sync_batch:93 - 批次 55 同步完成: 5000 行, 耗时: 0.03秒, 速率: 193330.44 行/秒
+2025-04-16 23:24:37.352 | INFO     | src.services.sync:sync_batch:93 - 批次 56 同步完成: 5000 行, 耗时: 0.03秒, 速率: 197715.83 行/秒
+2025-04-16 23:24:37.382 | INFO     | src.services.sync:sync_batch:93 - 批次 57 同步完成: 5000 行, 耗时: 0.03秒, 速率: 169764.52 行/秒
+2025-04-16 23:24:37.408 | INFO     | src.services.sync:sync_batch:93 - 批次 58 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188296.48 行/秒
+2025-04-16 23:24:37.435 | INFO     | src.services.sync:sync_batch:93 - 批次 59 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186556.12 行/秒
+2025-04-16 23:24:37.461 | INFO     | src.services.sync:sync_batch:93 - 批次 60 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190693.52 行/秒
+2025-04-16 23:24:37.488 | INFO     | src.services.sync:sync_batch:93 - 批次 61 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191758.90 行/秒
+2025-04-16 23:24:37.515 | INFO     | src.services.sync:sync_batch:93 - 批次 62 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188867.96 行/秒
+2025-04-16 23:24:37.544 | INFO     | src.services.sync:sync_batch:93 - 批次 63 同步完成: 5000 行, 耗时: 0.03秒, 速率: 170809.84 行/秒
+2025-04-16 23:24:37.571 | INFO     | src.services.sync:sync_batch:93 - 批次 64 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188092.13 行/秒
+2025-04-16 23:24:37.597 | INFO     | src.services.sync:sync_batch:93 - 批次 65 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192073.27 行/秒
+2025-04-16 23:24:37.622 | INFO     | src.services.sync:sync_batch:93 - 批次 66 同步完成: 5000 行, 耗时: 0.03秒, 速率: 197275.04 行/秒
+2025-04-16 23:24:37.648 | INFO     | src.services.sync:sync_batch:93 - 批次 67 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192104.94 行/秒
+2025-04-16 23:24:37.674 | INFO     | src.services.sync:sync_batch:93 - 批次 68 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192043.37 行/秒
+2025-04-16 23:24:37.704 | INFO     | src.services.sync:sync_batch:93 - 批次 69 同步完成: 5000 行, 耗时: 0.03秒, 速率: 166795.41 行/秒
+2025-04-16 23:24:37.731 | INFO     | src.services.sync:sync_batch:93 - 批次 70 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188120.81 行/秒
+2025-04-16 23:24:37.758 | INFO     | src.services.sync:sync_batch:93 - 批次 71 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185398.35 行/秒
+2025-04-16 23:24:37.784 | INFO     | src.services.sync:sync_batch:93 - 批次 72 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191027.03 行/秒
+2025-04-16 23:24:37.810 | INFO     | src.services.sync:sync_batch:93 - 批次 73 同步完成: 5000 行, 耗时: 0.03秒, 速率: 191790.46 行/秒
+2025-04-16 23:24:37.838 | INFO     | src.services.sync:sync_batch:93 - 批次 74 同步完成: 5000 行, 耗时: 0.03秒, 速率: 180670.60 行/秒
+2025-04-16 23:24:37.868 | INFO     | src.services.sync:sync_batch:93 - 批次 75 同步完成: 5000 行, 耗时: 0.03秒, 速率: 166985.33 行/秒
+2025-04-16 23:24:37.894 | INFO     | src.services.sync:sync_batch:93 - 批次 76 同步完成: 5000 行, 耗时: 0.03秒, 速率: 189770.34 行/秒
+2025-04-16 23:24:37.921 | INFO     | src.services.sync:sync_batch:93 - 批次 77 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184982.98 行/秒
+2025-04-16 23:24:37.953 | INFO     | src.services.sync:sync_batch:93 - 批次 78 同步完成: 5000 行, 耗时: 0.03秒, 速率: 160514.34 行/秒
+2025-04-16 23:24:37.980 | INFO     | src.services.sync:sync_batch:93 - 批次 79 同步完成: 5000 行, 耗时: 0.03秒, 速率: 185491.82 行/秒
+2025-04-16 23:24:38.006 | INFO     | src.services.sync:sync_batch:93 - 批次 80 同步完成: 5000 行, 耗时: 0.03秒, 速率: 187277.48 行/秒
+2025-04-16 23:24:38.036 | INFO     | src.services.sync:sync_batch:93 - 批次 81 同步完成: 5000 行, 耗时: 0.03秒, 速率: 168450.00 行/秒
+2025-04-16 23:24:38.062 | INFO     | src.services.sync:sync_batch:93 - 批次 82 同步完成: 5000 行, 耗时: 0.03秒, 速率: 192923.17 行/秒
+2025-04-16 23:24:38.089 | INFO     | src.services.sync:sync_batch:93 - 批次 83 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186868.64 行/秒
+2025-04-16 23:24:38.116 | INFO     | src.services.sync:sync_batch:93 - 批次 84 同步完成: 5000 行, 耗时: 0.03秒, 速率: 184924.25 行/秒
+2025-04-16 23:24:38.142 | INFO     | src.services.sync:sync_batch:93 - 批次 85 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188374.28 行/秒
+2025-04-16 23:24:38.168 | INFO     | src.services.sync:sync_batch:93 - 批次 86 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190606.86 行/秒
+2025-04-16 23:24:38.198 | INFO     | src.services.sync:sync_batch:93 - 批次 87 同步完成: 5000 行, 耗时: 0.03秒, 速率: 171449.41 行/秒
+2025-04-16 23:24:38.224 | INFO     | src.services.sync:sync_batch:93 - 批次 88 同步完成: 5000 行, 耗时: 0.03秒, 速率: 188237.32 行/秒
+2025-04-16 23:24:38.251 | INFO     | src.services.sync:sync_batch:93 - 批次 89 同步完成: 5000 行, 耗时: 0.03秒, 速率: 189528.52 行/秒
+2025-04-16 23:24:38.277 | INFO     | src.services.sync:sync_batch:93 - 批次 90 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190273.10 行/秒
+2025-04-16 23:24:38.302 | INFO     | src.services.sync:sync_batch:93 - 批次 91 同步完成: 5000 行, 耗时: 0.03秒, 速率: 197349.29 行/秒
+2025-04-16 23:24:38.329 | INFO     | src.services.sync:sync_batch:93 - 批次 92 同步完成: 5000 行, 耗时: 0.03秒, 速率: 189526.80 行/秒
+2025-04-16 23:24:38.361 | INFO     | src.services.sync:sync_batch:93 - 批次 93 同步完成: 5000 行, 耗时: 0.03秒, 速率: 152120.76 行/秒
+2025-04-16 23:24:38.388 | INFO     | src.services.sync:sync_batch:93 - 批次 94 同步完成: 5000 行, 耗时: 0.03秒, 速率: 190922.68 行/秒
+2025-04-16 23:24:38.419 | INFO     | src.services.sync:sync_batch:93 - 批次 95 同步完成: 5000 行, 耗时: 0.03秒, 速率: 164474.77 行/秒
+2025-04-16 23:24:38.446 | INFO     | src.services.sync:sync_batch:93 - 批次 96 同步完成: 5000 行, 耗时: 0.03秒, 速率: 186566.08 行/秒
+2025-04-16 23:24:38.473 | INFO     | src.services.sync:sync_batch:93 - 批次 97 同步完成: 5000 行, 耗时: 0.03秒, 速率: 181673.84 行/秒
+2025-04-16 23:24:38.502 | INFO     | src.services.sync:sync_batch:93 - 批次 98 同步完成: 5000 行, 耗时: 0.03秒, 速率: 172290.30 行/秒
+2025-04-16 23:24:38.532 | INFO     | src.services.sync:sync_batch:93 - 批次 99 同步完成: 5000 行, 耗时: 0.03秒, 速率: 170744.48 行/秒
+2025-04-16 23:24:38.559 | INFO     | src.services.sync:sync_batch:93 - 批次 100 同步完成: 5000 行, 耗时: 0.03秒, 速率: 187449.90 行/秒
+2025-04-16 23:24:38.559 | SUCCESS  | src.services.sync:sync_table:199 - 表 cn_test -> cn_test2 同步完成
+2025-04-16 23:24:38.559 | INFO     | src.services.sync:sync_table:200 - 总记录数: 500000, 总耗时: 9.20秒, 平均速率: 54334.33 行/秒, 完成批次数: 100/100
+2025-04-16 23:24:38.740 | SUCCESS  | src.services.sync:sync_table:214 - 数据验证成功: 500000 行
+2025-04-16 23:24:38.750 | SUCCESS  | src.services.sync:sync_all:239 - 所有表同步完成，总耗时: 9.41秒
+2025-04-16 23:24:38.750 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:24:38.750 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:24:42.163 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:24:42.383 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:24:42.456 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:24:42.456 | INFO     | src.services.sync:initialize:38 - 初始化完成，并发任务数: 5
+2025-04-16 23:24:42.456 | INFO     | src.services.sync:truncate_table:53 - Truncating target table: cn_test
+2025-04-16 23:24:42.462 | SUCCESS  | src.services.sync:truncate_table:55 - Successfully truncated table: cn_test
+2025-04-16 23:24:42.462 | INFO     | src.services.sync:sync_table:115 - 已清空目标表: cn_test
+2025-04-16 23:24:48.822 | INFO     | src.services.sync:sync_table:128 - 总批次数: 100, 配置的并发数: 5
+2025-04-16 23:24:54.720 | INFO     | src.services.sync:sync_batch:93 - 批次 1 同步完成: 5000 行, 耗时: 5.90秒, 速率: 847.72 行/秒
+2025-04-16 23:25:00.642 | INFO     | src.services.sync:sync_batch:93 - 批次 2 同步完成: 5000 行, 耗时: 5.92秒, 速率: 844.24 行/秒
+2025-04-16 23:25:06.477 | INFO     | src.services.sync:sync_batch:93 - 批次 3 同步完成: 5000 行, 耗时: 5.84秒, 速率: 856.89 行/秒
+2025-04-16 23:25:12.163 | INFO     | src.services.sync:sync_batch:93 - 批次 4 同步完成: 5000 行, 耗时: 5.69秒, 速率: 879.41 行/秒
+2025-04-16 23:25:17.852 | INFO     | src.services.sync:sync_batch:93 - 批次 5 同步完成: 5000 行, 耗时: 5.69秒, 速率: 878.85 行/秒
+2025-04-16 23:25:23.773 | INFO     | src.services.sync:sync_batch:93 - 批次 6 同步完成: 5000 行, 耗时: 5.92秒, 速率: 844.69 行/秒
+2025-04-16 23:25:29.537 | INFO     | src.services.sync:sync_batch:93 - 批次 7 同步完成: 5000 行, 耗时: 5.76秒, 速率: 867.46 行/秒
+2025-04-16 23:25:35.286 | INFO     | src.services.sync:sync_batch:93 - 批次 8 同步完成: 5000 行, 耗时: 5.75秒, 速率: 869.72 行/秒
+2025-04-16 23:25:40.900 | INFO     | src.services.sync:sync_batch:93 - 批次 9 同步完成: 5000 行, 耗时: 5.61秒, 速率: 890.63 行/秒
+2025-04-16 23:25:46.566 | INFO     | src.services.sync:sync_batch:93 - 批次 10 同步完成: 5000 行, 耗时: 5.67秒, 速率: 882.55 行/秒
+2025-04-16 23:25:48.280 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:25:48.281 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 23:26:32.127 | INFO     | __main__:main:51 - Loading configuration from: D:\Project\github\DataBaseCopy\examples\configM2P.json
+2025-04-16 23:26:32.358 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 23:26:32.430 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 23:26:32.430 | INFO     | src.services.sync:initialize:38 - 初始化完成，并发任务数: 10
+2025-04-16 23:26:32.430 | INFO     | src.services.sync:truncate_table:53 - Truncating target table: cn_test
+2025-04-16 23:26:32.436 | SUCCESS  | src.services.sync:truncate_table:55 - Successfully truncated table: cn_test
+2025-04-16 23:26:32.437 | INFO     | src.services.sync:sync_table:115 - 已清空目标表: cn_test
+2025-04-16 23:26:38.756 | INFO     | src.services.sync:sync_table:128 - 总批次数: 100, 配置的并发数: 10
+2025-04-16 23:26:44.286 | INFO     | src.services.sync:sync_batch:93 - 批次 1 同步完成: 5000 行, 耗时: 5.53秒, 速率: 904.10 行/秒
+2025-04-16 23:26:49.848 | INFO     | src.services.sync:sync_batch:93 - 批次 2 同步完成: 5000 行, 耗时: 5.56秒, 速率: 899.02 行/秒
+2025-04-16 23:26:51.722 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 23:26:51.723 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database

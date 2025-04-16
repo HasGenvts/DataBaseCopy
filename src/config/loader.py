@@ -1,8 +1,9 @@
 import json
 from typing import Dict, List
-from src.models.config import Config, DatabaseConfig, TableMapping, FieldMapping
+from src.models.config import SyncConfig, DatabaseConfig, TableMapping, FieldMapping
+from loguru import logger
 
-def load_config(config_path: str) -> Config:
+def load_config(config_path: str) -> SyncConfig:
     """
     从JSON文件加载同步配置
     
@@ -10,7 +11,7 @@ def load_config(config_path: str) -> Config:
         config_path: 配置文件路径
         
     Returns:
-        Config对象
+        SyncConfig对象
         
     Raises:
         FileNotFoundError: 配置文件不存在
@@ -20,6 +21,8 @@ def load_config(config_path: str) -> Config:
     try:
         with open(config_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
+            
+        logger.debug(f"读取配置文件内容: {json.dumps(data, indent=2)}")
             
         # 创建数据库配置
         source_config = DatabaseConfig(**data['source'])
@@ -42,12 +45,31 @@ def load_config(config_path: str) -> Config:
             table_mappings.append(mapping)
             
         # 创建总配置
-        config = Config(
-            source=source_config,
-            target=target_config,
-            tables=table_mappings,
-            batch_size=data.get('batch_size', 1000)
-        )
+        config_kwargs = {
+            'source': source_config,
+            'target': target_config,
+            'tables': table_mappings
+        }
+        
+        # 添加可选配置，使用配置文件中的值（如果存在）
+        optional_fields = [
+            'batch_size',
+            'max_concurrent_tasks',
+            'verify_data',
+            'retry_times',
+            'retry_interval'
+        ]
+        
+        for field in optional_fields:
+            if field in data:
+                config_kwargs[field] = data[field]
+                logger.debug(f"使用配置文件中的 {field}: {data[field]}")
+            else:
+                logger.debug(f"使用默认值 {field}")
+        
+        # 创建配置对象
+        config = SyncConfig(**config_kwargs)
+        logger.debug(f"最终配置: max_concurrent_tasks = {config.max_concurrent_tasks}")
         
         return config
         

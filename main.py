@@ -77,8 +77,17 @@ async def main():
             source=source_config,
             target=target_config,
             tables=table_mappings,
-            batch_size=config_data.get("batch_size", 1000)
+            batch_size=config_data.get("batch_size", 1000),
+            max_concurrent_tasks=config_data.get("max_concurrent_tasks", 5),
+            verify_data=config_data.get("verify_data", True),
+            retry_times=config_data.get("retry_times", 3),
+            retry_interval=config_data.get("retry_interval", 5)
         )
+        
+        # 打印配置内容
+        logger.debug("配置内容:")
+        logger.debug(f"原始配置: {json.dumps(config_data, indent=2)}")
+        logger.debug(f"max_concurrent_tasks: {config.max_concurrent_tasks}")
         
         # 创建同步服务
         from src.services.sync import SyncService

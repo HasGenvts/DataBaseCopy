@@ -1,0 +1,229 @@
+2025-04-16 20:16:02.363 | ERROR    | __main__:main:31 - Sync failed: Config file not found: config.json
+2025-04-16 20:17:47.908 | ERROR    | __main__:main:31 - Sync failed: Config file not found: config.json
+2025-04-16 20:18:16.330 | ERROR    | __main__:main:31 - Sync failed: Config file not found: config.json
+2025-04-16 20:18:52.007 | ERROR    | __main__:main:31 - Sync failed: Expecting property name enclosed in double quotes: line 22 column 5 (char 549)
+2025-04-16 20:21:00.686 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:21:21.768 | ERROR    | src.connectors.postgresql:connect:43 - Failed to connect to PostgreSQL database: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:21.768 | ERROR    | src.services.sync:initialize:28 - Failed to initialize database connections: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:21.769 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:21:21.769 | INFO     | src.connectors.postgresql:disconnect:49 - Disconnected from PostgreSQL database
+2025-04-16 20:21:21.769 | ERROR    | __main__:main:31 - Sync failed: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 5432 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:34.277 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:21:34.317 | ERROR    | src.connectors.postgresql:connect:43 - Failed to connect to PostgreSQL database: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:34.317 | ERROR    | src.services.sync:initialize:28 - Failed to initialize database connections: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:34.317 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:21:34.317 | INFO     | src.connectors.postgresql:disconnect:49 - Disconnected from PostgreSQL database
+2025-04-16 20:21:34.317 | ERROR    | __main__:main:31 - Sync failed: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:54.112 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:21:54.167 | ERROR    | src.connectors.postgresql:connect:43 - Failed to connect to PostgreSQL database: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:54.167 | ERROR    | src.services.sync:initialize:28 - Failed to initialize database connections: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:21:54.167 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:21:54.168 | INFO     | src.connectors.postgresql:disconnect:49 - Disconnected from PostgreSQL database
+2025-04-16 20:21:54.168 | ERROR    | __main__:main:31 - Sync failed: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:22:50.198 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:22:50.236 | ERROR    | src.connectors.postgresql:connect:43 - Failed to connect to PostgreSQL database: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:22:50.236 | ERROR    | src.services.sync:initialize:28 - Failed to initialize database connections: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:22:50.237 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:22:50.237 | INFO     | src.connectors.postgresql:disconnect:49 - Disconnected from PostgreSQL database
+2025-04-16 20:22:50.237 | ERROR    | __main__:main:31 - Sync failed: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:26:34.800 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:26:34.859 | ERROR    | src.connectors.postgresql:connect:43 - Failed to connect to PostgreSQL database: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:26:34.859 | ERROR    | src.services.sync:initialize:28 - Failed to initialize database connections: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:26:34.860 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:26:34.860 | INFO     | src.connectors.postgresql:disconnect:49 - Disconnected from PostgreSQL database
+2025-04-16 20:26:34.860 | ERROR    | __main__:main:31 - Sync failed: (psycopg2.OperationalError) connection to server at "192.168.1.17", port 35432 failed: FATAL:  invalid command-line argument for server process: method
+HINT:  Try "postgres --help" for more information.
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-16 20:27:37.908 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:27:37.963 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 20:27:37.963 | INFO     | src.services.sync:sync_all:80 - Starting sync from cn_test to cn_test
+2025-04-16 20:27:37.972 | ERROR    | src.connectors.postgresql:get_table_schema:85 - Failed to get schema for table cn_test: (psycopg2.errors.AmbiguousColumn) column reference "column_name" is ambiguous
+LINE 3:             column_name,
+                    ^
+
+[SQL: 
+        SELECT 
+            column_name,
+            data_type,
+            character_maximum_length,
+            is_nullable,
+            CASE WHEN pk.column_name IS NOT NULL THEN true ELSE false END as is_primary_key
+        FROM 
+            information_schema.columns c
+        LEFT JOIN (
+            SELECT ku.column_name
+            FROM information_schema.table_constraints tc
+            JOIN information_schema.key_column_usage ku
+                ON tc.constraint_name = ku.constraint_name
+            WHERE tc.constraint_type = 'PRIMARY KEY'
+                AND ku.table_name = %(table)s
+                AND ku.table_schema = %(schema)s
+        ) pk ON pk.column_name = c.column_name
+        WHERE 
+            c.table_name = %(table)s
+            AND c.table_schema = %(schema)s
+        ORDER BY 
+            c.ordinal_position
+        ]
+[parameters: {'table': 'cn_test', 'schema': 'public'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 20:27:37.973 | ERROR    | src.services.sync:sync_table:71 - Failed to sync table cn_test to cn_test: (psycopg2.errors.AmbiguousColumn) column reference "column_name" is ambiguous
+LINE 3:             column_name,
+                    ^
+
+[SQL: 
+        SELECT 
+            column_name,
+            data_type,
+            character_maximum_length,
+            is_nullable,
+            CASE WHEN pk.column_name IS NOT NULL THEN true ELSE false END as is_primary_key
+        FROM 
+            information_schema.columns c
+        LEFT JOIN (
+            SELECT ku.column_name
+            FROM information_schema.table_constraints tc
+            JOIN information_schema.key_column_usage ku
+                ON tc.constraint_name = ku.constraint_name
+            WHERE tc.constraint_type = 'PRIMARY KEY'
+                AND ku.table_name = %(table)s
+                AND ku.table_schema = %(schema)s
+        ) pk ON pk.column_name = c.column_name
+        WHERE 
+            c.table_name = %(table)s
+            AND c.table_schema = %(schema)s
+        ORDER BY 
+            c.ordinal_position
+        ]
+[parameters: {'table': 'cn_test', 'schema': 'public'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 20:27:37.973 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:27:37.974 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 20:27:37.974 | ERROR    | __main__:main:31 - Sync failed: (psycopg2.errors.AmbiguousColumn) column reference "column_name" is ambiguous
+LINE 3:             column_name,
+                    ^
+
+[SQL: 
+        SELECT 
+            column_name,
+            data_type,
+            character_maximum_length,
+            is_nullable,
+            CASE WHEN pk.column_name IS NOT NULL THEN true ELSE false END as is_primary_key
+        FROM 
+            information_schema.columns c
+        LEFT JOIN (
+            SELECT ku.column_name
+            FROM information_schema.table_constraints tc
+            JOIN information_schema.key_column_usage ku
+                ON tc.constraint_name = ku.constraint_name
+            WHERE tc.constraint_type = 'PRIMARY KEY'
+                AND ku.table_name = %(table)s
+                AND ku.table_schema = %(schema)s
+        ) pk ON pk.column_name = c.column_name
+        WHERE 
+            c.table_name = %(table)s
+            AND c.table_schema = %(schema)s
+        ORDER BY 
+            c.ordinal_position
+        ]
+[parameters: {'table': 'cn_test', 'schema': 'public'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-16 20:29:58.516 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:29:58.586 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 20:29:58.586 | INFO     | src.services.sync:sync_all:80 - Starting sync from cn_test to cn_test
+2025-04-16 20:29:58.606 | WARNING  | src.services.sync:_validate_schema_compatibility:107 - Incompatible types: varchar -> character varying
+2025-04-16 20:29:58.606 | ERROR    | src.services.sync:sync_table:71 - Failed to sync table cn_test to cn_test: Schema mismatch between cn_test and cn_test
+2025-04-16 20:29:58.607 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:29:58.607 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 20:29:58.607 | ERROR    | __main__:main:31 - Sync failed: Schema mismatch between cn_test and cn_test
+2025-04-16 20:32:40.209 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:32:40.266 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 20:32:40.266 | INFO     | src.services.sync:sync_all:72 - Starting sync from cn_test to cn_test
+2025-04-16 20:32:40.270 | ERROR    | src.services.sync:sync_table:63 - Failed to sync table cn_test to cn_test: dictionary update sequence element #0 has length 1; 2 is required
+2025-04-16 20:32:40.270 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:32:40.270 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 20:32:40.270 | ERROR    | __main__:main:31 - Sync failed: dictionary update sequence element #0 has length 1; 2 is required
+2025-04-16 20:34:09.500 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:34:09.556 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 20:34:09.556 | INFO     | src.services.sync:sync_all:72 - Starting sync from cn_test to cn_test
+2025-04-16 20:34:09.566 | INFO     | src.services.sync:sync_table:58 - Synced 2 rows to cn_test
+2025-04-16 20:34:09.567 | SUCCESS  | src.services.sync:sync_table:60 - Successfully synced 2 rows from cn_test to cn_test
+2025-04-16 20:34:09.567 | SUCCESS  | src.services.sync:sync_all:75 - All tables synced successfully
+2025-04-16 20:34:09.567 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:34:09.568 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 20:34:17.478 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:34:17.538 | INFO     | src.connectors.postgresql:connect:32 - Successfully connected to PostgreSQL database: postgres
+2025-04-16 20:34:17.538 | INFO     | src.services.sync:sync_all:72 - Starting sync from cn_test to cn_test
+2025-04-16 20:34:17.548 | INFO     | src.services.sync:sync_table:58 - Synced 2 rows to cn_test
+2025-04-16 20:34:17.550 | SUCCESS  | src.services.sync:sync_table:60 - Successfully synced 2 rows from cn_test to cn_test
+2025-04-16 20:34:17.550 | SUCCESS  | src.services.sync:sync_all:75 - All tables synced successfully
+2025-04-16 20:34:17.550 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:34:17.550 | INFO     | src.connectors.postgresql:disconnect:40 - Disconnected from PostgreSQL database
+2025-04-16 20:37:26.335 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:37:26.351 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:37:26.351 | INFO     | src.services.sync:sync_all:72 - Starting sync from cn_test to cn_test2
+2025-04-16 20:37:26.361 | INFO     | src.services.sync:sync_table:58 - Synced 2 rows to cn_test2
+2025-04-16 20:37:26.362 | SUCCESS  | src.services.sync:sync_table:60 - Successfully synced 2 rows from cn_test to cn_test2
+2025-04-16 20:37:26.363 | SUCCESS  | src.services.sync:sync_all:75 - All tables synced successfully
+2025-04-16 20:37:26.363 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:37:26.364 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:46:13.149 | ERROR    | src.services.sync:initialize:28 - Failed to initialize database connections: 'dict' object has no attribute 'type'
+2025-04-16 20:46:13.149 | ERROR    | __main__:main:31 - Sync failed: 'dict' object has no attribute 'type'
+2025-04-16 20:47:46.186 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:47:46.204 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:47:46.204 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:47:46.204 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:47:46.204 | ERROR    | __main__:main:53 - Sync failed: 'SyncConfig' object has no attribute 'table_mappings'
+2025-04-16 20:49:12.340 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:49:12.358 | INFO     | src.connectors.mysql:connect:25 - Successfully connected to MySQL database: LocalContainerManager
+2025-04-16 20:49:12.358 | INFO     | src.services.sync:sync_all:71 - Starting sync from cn_test to cn_test2
+2025-04-16 20:49:12.369 | INFO     | src.services.sync:sync_table:57 - Synced 2 rows to cn_test2
+2025-04-16 20:49:12.370 | SUCCESS  | src.services.sync:sync_table:59 - Successfully synced 2 rows from cn_test to cn_test2
+2025-04-16 20:49:12.370 | SUCCESS  | src.services.sync:sync_all:74 - All tables synced successfully
+2025-04-16 20:49:12.370 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:49:12.371 | INFO     | src.connectors.mysql:disconnect:33 - Disconnected from MySQL database
+2025-04-16 20:56:06.597 | ERROR    | __main__:main:70 - Sync failed: Missing required argument: config=<path_to_config_file>

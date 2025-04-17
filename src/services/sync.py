@@ -5,12 +5,14 @@ from src.models.config import SyncConfig, TableMapping
 from src.connectors.factory import ConnectorFactory
 from src.connectors.base import BaseConnector
 from loguru import logger
+from src.services.batch_processor import MultiProcessSync
 
 class SyncService:
     def __init__(self, config: SyncConfig):
         self.config = config
         self.source_connector: BaseConnector = None
         self.target_connector: BaseConnector = None
+        self.multi_process_sync = MultiProcessSync(config)
         
     async def initialize(self) -> None:
         """初始化源和目标数据库连接"""
@@ -220,30 +222,29 @@ class SyncService:
             return False
 
     async def sync_all(self) -> bool:
-        """同步所有表"""
+        """同步所有配置的表"""
         try:
-            await self.initialize()
+            logger.info("开始同步...")
+            start_time = time.time()
             
-            total_start_time = time.time()
             success = True
-            
             for table_mapping in self.config.tables:
-                if not await self.sync_table(table_mapping):
+                if not await self.multi_process_sync.sync_table(table_mapping):
                     success = False
                     break
             
-            total_end_time = time.time()
-            total_duration = total_end_time - total_start_time
+            end_time = time.time()
+            total_duration = end_time - start_time
             
             if success:
                 logger.success(f"所有表同步完成，总耗时: {total_duration:.2f}秒")
             else:
-                logger.error(f"同步过程中出现错误，总耗时: {total_duration:.2f}秒")
+                logger.error(f"同步失败，总耗时: {total_duration:.2f}秒")
             
             return success
             
         except Exception as e:
-            logger.error(f"同步失败: {str(e)}")
+            logger.error(f"同步过程发生错误: {str(e)}")
             return False
         finally:
             await self.cleanup()
